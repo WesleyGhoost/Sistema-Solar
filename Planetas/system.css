@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+h3 {
+    text-align: center;
+    color: rgba(127, 255, 212, 0.726);
+}
+p {
+    font-size: 20px;
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.saturnoImg {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+}
+.list {
+    text-align: start;
+}
+div {
+    text-align: center;
+    border: 2px solid white;
+    height: 780px;
+    width: 800px;
+    position: relative;
+    left: 220px;
+    margin-top: 60px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.terra {
+    color: rgba(165, 42, 42, 0.655);
+    height: 800px;
+}
+.marte {
+    color: red;
+}
+.urano {
+    color: rgba(0, 128, 117, 0.621);
+}
+.netuno {
+    color: rgba(0, 162, 255, 0.913);
+}
+.mercurio {
+    color: gray;
+}
+.jupiter {
+    color: rgba(255, 166, 0, 0.749);
+}
+.saturno {
+    color: rgba(255, 255, 0, 0.849);
+    height: 800px;
+}
+.venus {
+    color: rgba(255, 68, 0, 0.68);
+}
+.anime {
+    animation: rotate 7s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
